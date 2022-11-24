@@ -22,7 +22,7 @@ async function tts(chara, text) {
 	if (character == -1) throw `Character "${chara}" not found!\n\nList Characters:\n\n${list.join('\n')}`
 	character = list[character]
 	// if (text?.length < 5) throw 'Not enough text, minimum 5 characters' 
-	let res = await fetch('https://api.15.ai/app/getAudioFile5', {
+	let res = await fetch('https://saipulanuar.ga/api/text-to-audio/tts?text=seorang%20anak%20menyelamatkan%20burungnya%20yang%20lepas&idbahasa=id&apikey=LMEyDhUG', {
 		method: 'post',
 		headers: {
 			'content-type': 'application/json' 
