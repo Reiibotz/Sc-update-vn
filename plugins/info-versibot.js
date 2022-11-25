@@ -1,14 +1,14 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-  const ultah = new Date('November 4 2022 00:00:01')
+  const ultah = new Date('April 14 2023 00:00:01')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-  let info = `Bot ini menggunakan script by\n ᴹᴿ᭄ King Of Reii ×፝֟͜×\n\n*Version:* Private Edition V2`
+  let info = `Bot ini menggunakan script by\n ᴹᴿ᭄ King Of Reii ×፝֟͜×\n\n*Version:* Private Edition V1`
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const message = {

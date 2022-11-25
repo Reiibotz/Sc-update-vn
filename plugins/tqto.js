@@ -70,8 +70,8 @@ Terimakasih Juga Untuk Kang Banned:
 'mediaType':2,
 'previewType':'pdf',
 'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-'thumbnail':await(await fetch('https://telegra.ph/file/8a1c663c84751c10baf65.jpg')).buffer(),
+'body':`⚘ by ᴹᴿ᭄ King Of Reii ×፝֟͜×`,
+'thumbnail':await(await fetch('https://i.ibb.co/FY3ps9m/20221124-203522.png')).buffer(),
 'sourceUrl':'https://www.tiktok.com/@always_ntreii?_t=8VvI63a8xaz&_r=1'}},
 'caption':cap,
 'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Telah Berpatisipasi
